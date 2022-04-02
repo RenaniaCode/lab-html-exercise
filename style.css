@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+/*form label color: rgba(0,0,0,.05)
+form input color: rgba(0,0,0,.05)
+form button background color: #fb3e44
+form button letters color: white*/
+
+/*header*/
+/*top header*/
+header #top-header {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+/*bottom header*/
+
+  #bottom-header{
+    padding: 5px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    border-bottom-style:outset;
+    border-bottom-width: 1px;
+  }
+
+.bottom-header-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+  .search-bar-container {
+      background-color: rgba(0,0,0,.05);
+  }
+
+  #search-bar {
+      width: 970px;
+      height: 25px;
+      background-color: rgba(0,0,0,.05);
+      border-style: none;
+      padding: 7px;
+  }
+
+  .search-button {
+      width: 70px;
+      padding: 5px 10px;
+      border-style: none;
+      background-color: #fb3e44;
+      color: white;
+  }
+
+  #bottom-header-2 a {
+      text-decoration: none;
+      color: black;
+      font-size: small;
+  }
+
+  .join {
+      border-style: solid;
+      border-color: black;
+      padding: 1px 15px;
+      border-width: 1px;
+  }
+
+  .log-in {
+      padding: 1px 10px;
+  }
+
+  .npm-logo {
+    width: 50px;
+    height: 15px;
+    padding-right: 10px;
+    align-self: center;
+}
+
+.magnifying-glass {
+    width: 25px;
+    background: rgba(0,0,0,0.05);
+    border: 10px;
+}
+/*Seccion1*/
+
+#section1 {
+    height: 600px; 
+    background-color: rgba(232, 217, 217, 0.555);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    margin: 0%;
+}
+
+#section1 article {
+    width: 445px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.see-plans {
+    background-color: #FB3B49;
+    text-decoration: none;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    padding: 10px 50px;
+}
+
+.join-for-free {
+    text-decoration: none;
+    color: black;
+    padding: 10px 50px;
+    font-weight: bolder;
+}
+
+/*Seccion2*/
+
+#section2 {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+}
+
+#section2 article{
+    width: 800px;
+    text-align: center;
+}
+
+.triangle-hexagon {
+    width: 200px;
+}
+
+/*Seccion3*/
+
+#section3 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    max-width: 1200px;
+    max-height: 1200px;
+    margin: 30px;
+}
+
+.options div {
+    width: 300px;
+    padding: 25px;
+}
+
+.op {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+h3 {
+    color: #ED1C24;
+}
+
+.create-an-org a{
+    border-style: solid;
+    text-decoration: none;
+    color:white;
+    border-style: solid;
+    background-color: black;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    padding: 7px 50px;
+}
+
+.create-an-org{
+    margin-bottom: 70px;
+}
+
+#section3 .zero-configuration, .familiar-features {
+    width: 30px;    
+}
+
+#section3 .team-management, .npm-audit {
+    width: 30px;
+    padding-bottom: 4px;
+    padding-top: 14.5px;
+}
+
